@@ -23,6 +23,9 @@ public class StudentProfile {
         System.out.println("Programme: Bachelor of Computer Science");
         System.out.println("Semester: Semester 1");
         System.out.println("Favourite Language: Java");
+        
+        GradeMessage msg = new GradeMessage();
+        msg.printMessage();
     }
     
 }
